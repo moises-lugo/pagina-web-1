@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tutorial</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediaQueries.css">
+  <script src="https://kit.fontawesome.com/477b03745b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="header">
+  <nav>
+    <div class="menu-mobil">
+      <div class="menu-header">
+      <div class="logo"><img src="/img/logo.png" alt="logo"></div>
+      <div class="more"><button id="bmore"><i class="fa-solid fa-bars fa-lg"></i></button></div>
+    </div>
+      <div class="links click" id="links">
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Blog</a>
+        <a href="#">Contac</a>
+      </div>
+    </div>
+    <div class="menu-destop">
+      <div class="logo"><img src="/img/logo.png" alt="logo"></div>
+      <div class="menu-item">
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i></div>
+    </div>
+  </nav>
+ </div>
+ <div class="main">
+  <div class="main-contain">
+   <div class="main-contain-p">
+      <div class="main-info">
+        <h3>Artist</h3>
+        <h1><span>Dani Rivera</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quaerat modi sapiente nesciunt ipsam temporibus, voluptates repellat, aut voluptas eum tempore accusamus cumque. Expedita quos, placeat minus at soluta eos.</p>
+        <button class="btn">Read More</button>
+      </div>
+   </div>
+  </div>
+ </div>
+ <div class="footer">
+  <div class="footer-contain">
+    <div class="listen">
+      <p><i class="fa-solid fa-headphones"></i>Listen Online</p>
+    </div>
+    <div class="follow">
+      <p><b>Follow me</b></p>
+      <div class="link">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+ <script>
+  const click = document.querySelector("#bmore");
+const evento = document.querySelector("#links");
+click.addEventListener('click',(e)=>{
+    evento.classList.toggle("click");
+})
+ </script>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>

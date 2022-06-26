@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px)  {
+    .menu-destop{
+        display: none;
+    }
+    .main-info span{
+        color: #c5c50b;
+        font-weight: 700;
+        font-size: 1.5em;
+      }
+    .menu-mobil{
+        display: block;
+    }
+    .main-contain-p{
+        padding:0%;
+    }
+    .main-info{
+        padding: 0px;
+       
+      }
+}
